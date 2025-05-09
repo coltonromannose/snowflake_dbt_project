@@ -1,4 +1,5 @@
 Project Overview
+
 This project demonstrates how to build a scalable, cloud-based data pipeline using AWS Glue, Amazon S3, dbt, and Snowflake. We extract data from an external API using AWS Glue, store it in S3, and then use dbt to load, model, and transform the data within Snowflake. The pipeline follows a structured multi-layer architecture—raw, transform, and mart—to ensure clean, reliable, and analysis-ready datasets.
 
 Key Features
