@@ -19,3 +19,11 @@ This project demonstrates how to build a scalable, cloud-based data pipeline usi
 4. **Create dbt Cloud account** via Snowflake Partner Connect
 5. **Build dbt models** for raw → transform → mart layers
 6. **Deploy models** to generate production-ready tables in Snowflake
+
+
+## Usage Examples
+
+- **Business Intelligence**: Query modeled data from the `mart` layer in tools like Tableau or Power BI
+- **Data Validation**: Use the `transform` layer to flag missing or inconsistent records
+- **Data Science**: Access structured Snowflake data in Jupyter notebooks or ML workflows
+- **Auditing**: Trace business metrics back through dbt model layers to the original API source
